@@ -39,3 +39,16 @@ function equal () {
   }
 }
 ```
+
+## Experience
+
+Experience, or better to say programming skills, i received from sources such as: [LearnJS](https://learn.javascript.ru/)  and **YouTube** lessons
+
+## Education
+
+I study at the Sukhoi Gomel State Technical University in the 3rd year of the Faculty of Humanities and Economics, specializing in enterprise management.
+
+## Languages
+
+* _Russian (native)_
+* _Took English courses at MrLanguage at B1 level._
