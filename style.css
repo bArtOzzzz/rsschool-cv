@@ -91,6 +91,9 @@ body {
   text-decoration: none;
   color: #2e4ae4;
 }
+.experience a:hover {
+  color: #ed5316;
+}
 .experience hr {
   width: 180px;
 }
