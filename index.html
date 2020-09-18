@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My cv</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My cv</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        <h1>Aleksei Nikonov</h1>
-        <h2>Front-end Developer</h2>
-        <img src="./img/IMG_20200427_141132.jpg" alt="photo">
-    </section>
+  <section class="general">
+    <h1>Aleksei Nikonov</h1>
+    <hr>
+    <h2>Front-end Developer</h2>
+    <img src="./img/IMG_20200427_141132.jpg" alt="photo">
+    <hr>
+  </section>
+  <section class="contacts">
+		<h2>Contacts</h2>
+		<hr>
+		<ul>
+			<li>Gmail: breakyourbrain55@gmail.com</li>
+			<li>Phone number: (A1)+375(44)532-76-29</li>
+			<li>Discord: Spectre(bArtOzzzz)</li>
+		</ul>
+	</section>
+	<section class="about">
+		<h2>About me</h2>
+		<hr>
+		<p>My main goal is to become a sought-after specialist.</p>
+		<p>Continuously develop conversational English skills and programming knowledge.</p>
+		<p>Desire to do huge, time consuming projects.</p>
+	</section>
+	<section class="skills">
+		<h2>Skills</h2>
+		<hr>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>Python</li>
+			<li>C#</li>
+			<li>Git</li>
+		</ul>
+	</section>
+	<section class="code">
+		<h2>Code</h2>
+		<hr>
+		<p>function insert(num) {
+			document.form.textview.value = document.form.textview.value + num;
+		}
+		function clean () {
+			document.form.textview.value = "";
+		}
+		function back () {
+			var exp = document.form.textview.value;
+			document.form.textview.value = exp.substring(0, exp.length - 1);
+		}
+		function equal () {
+			var exp = document.form.textview.value;
+			if (exp) {
+				document.form.textview.value = eval(exp);
+			}
+		}</p>
+	</section>
 </body>
 </html>
